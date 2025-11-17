@@ -1,4 +1,4 @@
-# 🧑‍💼 **HR Analytics Dashboard (Power BI Project)**
+# 👥 **HR Analytics Dashboard (Power BI Project)**
 
 ---
 
@@ -8,38 +8,26 @@ This project presents an **HR Analytics Dashboard** built using **Power BI**.
 It analyzes employee attrition, workforce demographics, salary distribution, and experience levels.
 
 The dashboard helps HR teams understand:
-- Attrition patterns across demographics  
-- Key employee metrics (age, salary, experience)  
-- Trends in attrition by education, job role, gender  
-- Workforce distribution and retention-related insights  
+- Overall attrition and retention metrics  
+- Factors influencing attrition (age, gender, education, role, salary)  
+- Workforce distribution across job roles and experience levels  
+- Key KPIs like average age, salary, and years at company  
 
 ---
 
 ## 🚀 **Key Features**
 
-### ✔️ **Overall HR Metrics**
-Includes major KPIs such as:
-- Total Employees  
-- Total Attrition  
-- Attrition Rate  
-- Average Age  
-- Average Salary  
-- Average Experience  
+### ✔️ **Attrition Analysis**
+Shows total attrition, attrition rate, and breakdown across demographics.
 
-### ✔️ **Attrition by Education**
-Shows which education levels face the highest attrition.
+### ✔️ **Age, Gender & Education Insights**
+Visualizes how attrition varies by different employee categories.
 
-### ✔️ **Attrition by Age Group**
-Visual insight into which age groups contribute most to turnover.
+### ✔️ **Salary & Experience Analysis**
+Identifies trends across salary slabs and years spent at the company.
 
-### ✔️ **Attrition by Salary Slab**
-Identifies salary brackets with high attrition risk.
-
-### ✔️ **Attrition by Gender & Job Role**
-Shows demographic and role-based attrition patterns.
-
-### ✔️ **Years at Company**
-Reveals how experience duration affects attrition.
+### ✔️ **Job Role Comparison**
+Shows which job roles have the highest attrition.
 
 ---
 
@@ -47,17 +35,18 @@ Reveals how experience duration affects attrition.
 
 - **Power BI**
   - Power Query (Data Cleaning)
-  - Data Modelling
-  - DAX (Measures & KPIs)
-  - Interactive Visuals & Filters
+  - DAX (KPIs & Measures)
+  - Interactive Slicers & Filters
+  - Pie, Bar, Donut, and Line Charts
 
 ---
 
 ## 📂 **Project Files**
 
 | File Name | Description |
-|----------|-------------|
-| `HR Analytics Dashboard.pbix` | Main Power BI dashboard file |
+|-----------|-------------|
+| `HR Analytics Dashboard.pbix` | Main Power BI dashboard |
+| `HR_Analytics.csv` | Dataset used in the project |
 | `HR Analytics.png` | Dashboard screenshot |
 | `README.md` | Project documentation |
 
@@ -65,20 +54,27 @@ Reveals how experience duration affects attrition.
 
 ## 🧩 **How to Use**
 
-1. Download the `HR Analytics Dashboard.pbix` file.  
+1. Download `HR Analytics Dashboard.pbix`.  
 2. Open it in **Power BI Desktop**.  
-3. Use the filters/slicers to explore attrition insights.  
-4. Review KPIs to understand workforce health.
+3. Explore the dashboard using interactive filters.  
+4. Analyze attrition patterns and demographic insights.
 
 ---
 
 ## 🌟 **Insights Summary**
 
-- 📉 Attrition rate shows key workforce challenges  
-- 👨‍🏫 Education level impacts employee turnover  
-- 🕒 Experience (Years at Company) strongly influences attrition  
-- 👩‍💼 Job role & gender-based attrition patterns identified  
-- 💰 Salary slab analysis helps understand compensation-related attrition  
+- 👥 Total Employees: **1470**  
+- ❌ Total Attrition: **237**  
+- 📉 Attrition Rate: **16.1%**  
+- 🎯 Avg Age: **37**  
+- 💵 Avg Salary: **6.5K**  
+- 🧭 Avg Experience: **7 Years**
+
+Key insights:
+- Attrition highest in **Laboratory Technician** & **Research Scientist** roles  
+- Employees with **1–3 years** of experience show higher attrition  
+- Attrition higher in **lower salary slabs**  
+- Age group **25–35** shows maximum exits  
 
 ---
 
@@ -86,8 +82,6 @@ Reveals how experience duration affects attrition.
 
 ![HR Analytics Dashboard](HR%20Analytics.png)
 
----
 
-### 👨‍💻 **Author**
-**Mohit Agrawal**  
-*Data Analyst | Power BI Developer*
+
+

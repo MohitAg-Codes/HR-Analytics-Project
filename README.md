@@ -1,87 +1,91 @@
-# 👥 **HR Analytics Dashboard (Power BI Project)**
+# 📊 HR Data Analytics Project
+
+## 🔎 Overview
+This project demonstrates a complete **end-to-end data analytics workflow**.  
+The process includes loading the dataset in **Excel**, performing **data cleaning in Power BI using Power Query**, running **SQL analysis** in **MySQL**, and building an interactive **Power BI dashboard**.  
+The objective is to analyze employee attrition, demographics, salary trends, and workforce patterns.
 
 ---
 
-## 📊 **Overview**
-
-This project presents an **HR Analytics Dashboard** built using **Power BI**.  
-It analyzes employee attrition, workforce demographics, salary distribution, and experience levels.
-
-The dashboard helps HR teams understand:
-- Overall attrition and retention metrics  
-- Factors influencing attrition (age, gender, education, role, salary)  
-- Workforce distribution across job roles and experience levels  
-- Key KPIs like average age, salary, and years at company  
+## 📂 Dataset
+- Source: HR Analytics Dataset  
+- Format: Excel → Cleaned in Power BI → Exported CSV  
+- Total Rows: ~1500  
+- Key Columns: Age, Gender, Department, Job Role, Monthly Income, Years at Company, Performance Rating, Attrition  
 
 ---
 
-## 🚀 **Key Features**
-
-### ✔️ **Attrition Analysis**
-Shows total attrition, attrition rate, and breakdown across demographics.
-
-### ✔️ **Age, Gender & Education Insights**
-Visualizes how attrition varies by different employee categories.
-
-### ✔️ **Salary & Experience Analysis**
-Identifies trends across salary slabs and years spent at the company.
-
-### ✔️ **Job Role Comparison**
-Shows which job roles have the highest attrition.
+## 🛠️ Tools & Technologies
+- **Excel** – Dataset loading & structure review  
+- **Power BI (Power Query)** – Data cleaning & transformation  
+- **MySQL** – SQL-based exploratory data analysis  
+- **Power BI Desktop** – Dashboard creation & visual insights  
+- **DAX** – KPI and measure calculations  
 
 ---
 
-## 🧠 **Tools & Technologies Used**
+## 🚀 Project Steps
 
-- **Power BI**
-  - Power Query (Data Cleaning)
-  - DAX (KPIs & Measures)
-  - Interactive Slicers & Filters
-  - Pie, Bar, Donut, and Line Charts
+### 1️⃣ Data Loading (Excel)
+- Loaded the raw HR dataset into Excel  
+- Verified structure, column names, and basic formatting  
 
----
+### 2️⃣ Data Cleaning (Power BI – Power Query)
+Data cleaning was completely done inside **Power BI**:
+- Removed duplicates  
+- Handled null values  
+- Standardized categorical fields  
+- Converted data types  
+- Removed unnecessary columns  
+- Exported cleaned table to CSV for SQL analysis  
 
-## 📂 **Project Files**
+### 3️⃣ SQL Analysis (MySQL)
+Performed Exploratory Data Analysis using SQL:
+- Gender distribution  
+- Attrition count & attrition rate  
+- Department vs job role insights  
+- Salary trends  
+- Experience vs attrition  
+- Performance rating distribution  
 
-| File Name | Description |
-|-----------|-------------|
-| `HR Analytics Dashboard.pbix` | Main Power BI dashboard |
-| `HR_Analytics.csv` | Dataset used in the project |
-| `HR Analytics.png` | Dashboard screenshot |
-| `README.md` | Project documentation |
-
----
-
-## 🧩 **How to Use**
-
-1. Download `HR Analytics Dashboard.pbix`.  
-2. Open it in **Power BI Desktop**.  
-3. Explore the dashboard using interactive filters.  
-4. Analyze attrition patterns and demographic insights.
-
----
-
-## 🌟 **Insights Summary**
-
-- 👥 Total Employees: **1470**  
-- ❌ Total Attrition: **237**  
-- 📉 Attrition Rate: **16.1%**  
-- 🎯 Avg Age: **37**  
-- 💵 Avg Salary: **6.5K**  
-- 🧭 Avg Experience: **7 Years**
-
-Key insights:
-- Attrition highest in **Laboratory Technician** & **Research Scientist** roles  
-- Employees with **1–3 years** of experience show higher attrition  
-- Attrition higher in **lower salary slabs**  
-- Age group **25–35** shows maximum exits  
+### 4️⃣ Dashboard Creation (Power BI)
+Designed an interactive **HR Analytics Dashboard** showing:
+- Attrition overview  
+- Demographics analysis  
+- Salary distribution  
+- Job role & department trends  
+- Key KPIs (Attrition Rate, Avg Salary, Avg Age, Avg Tenure)  
 
 ---
 
-## 📸 **Dashboard Preview**
-
+## 📸 **Dashboard Preview** 
 ![HR Analytics Dashboard](HR%20Analytics.png)
 
+---
+
+## 📈 Key Results
+- Identified primary drivers of employee attrition  
+- Job roles with highest turnover highlighted  
+- Lower salary bands showed increased exits  
+- Age groups 25–35 most prone to attrition  
+- Experience range 1–3 years shows higher risk  
+
+---
+## ▶️ How to Run the Project
+
+### **1. Excel**
+- Open the dataset file  
+- Review or modify if needed  
+
+### **2. SQL**
+- Import the cleaned CSV into MySQL  
+- Run the SQL queries from `hr_analytics.sql`  
+- Analyze returned insights  
+
+### **3. Power BI**
+- Open `HR_Analytics_Dashboard.pbix`  
+- Refresh data  
+- Explore interactive visuals  
 
 
 
